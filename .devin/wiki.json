@@ -1,0 +1,34 @@
+{
+  "repo_notes": [
+    {
+      "content": "Dataplane is a multi-runtime workflow orchestrator. Focus documentation on the core modules: dpapp/, cmd/, pkg/, and internal/."
+    }
+  ],
+  "pages": [
+    {
+      "title": "Architecture Overview",
+      "purpose": "Explain the Dataplane orchestration flow, main services, and how the workflow engine interacts with connectors and the API layer.",
+      "parent": null
+    },
+    {
+      "title": "Workflow Engine",
+      "purpose": "Describe pipeline execution logic, DAG scheduling, and job runners in the internal/engine/ directory.",
+      "parent": "Architecture Overview"
+    },
+    {
+      "title": "Connectors",
+      "purpose": "Document connector architecture in dpapp/connectors/ including integration logic and runtime isolation.",
+      "parent": "Architecture Overview"
+    },
+    {
+      "title": "API Services",
+      "purpose": "Outline REST and gRPC service implementations in cmd/api/ and their interface with frontend components.",
+      "parent": "Architecture Overview"
+    },
+    {
+      "title": "Frontend Module",
+      "purpose": "Describe frontend UI components and communication flow with backend APIs.",
+      "parent": "Architecture Overview"
+    }
+  ]
+}
